@@ -1,0 +1,59 @@
+.navbar{
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar h1{
+  color: white;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.content img{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  gap: 5px;
+}
+.choice:hover{
+  opacity: 0.5;
+}
+.scors{
+  display: flex;
+}
+.scor-user{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  width: 400px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+p{
+  margin: 5px;
+  font-size: 25px;
+}
+.btn{
+  height: 50px;
+  width: 200px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.btn:hover{
+  opacity: 0.5;
+}
